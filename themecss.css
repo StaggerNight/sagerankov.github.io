@@ -1,19 +1,13 @@
 
 .column {
   float: center;
-  width: 25%;
-  padding: 25px;
+  width: 90%;
+  padding: 1%;
 }
 .row {
   display: flex;
-  height: 30%;
+  height: 25%;
 }
-.container {
-  float: center;
-  width: 60%;
-  padding: 2%;
-}
-
 .center {
   display: block;
   margin-left: auto;
