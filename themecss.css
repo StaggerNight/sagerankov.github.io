@@ -5,3 +5,8 @@ margin: 0;
 padding: 0;
 background-color: Black;
 }
+
+#wrapper {
+ width: 95%;
+  margin: 0 auto;
+}
