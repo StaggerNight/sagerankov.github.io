@@ -2,7 +2,7 @@
 .column {
   float: center;
   width: 25%;
-  padding: 5px;
+  padding: 25px;
 }
 .row {
   display: flex;
