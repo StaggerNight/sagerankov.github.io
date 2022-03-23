@@ -1,20 +1,20 @@
 
 .column {
-  float: center;
-  width: 90%;
   padding: 1%;
 }
 .row {
   display: flex;
 }
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 30%;
+
 }
 .fit{
     margin: 0;
     min-height: 100%;
   
+}
+body {
+height: 100%;
+margin: 0;
+padding: 0;
 }
