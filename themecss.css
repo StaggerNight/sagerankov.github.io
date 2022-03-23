@@ -1,18 +1,9 @@
 
 .column {
-  float: left;
+  float: center;
   width: 25%;
   padding: 5px;
 }
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
 .row {
   display: flex;
-}
-.column {
-  flex: 25%;
-  padding: 5px;
 }
