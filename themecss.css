@@ -1,12 +1,6 @@
 
-html, body {
-height: 100%;
+html{
 margin: 0;
 padding: 0;
 background-color: Black;
-}
-
-#wrapper {
- width: 95%;
-  margin: 0 auto;
 }
