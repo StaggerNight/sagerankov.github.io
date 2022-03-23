@@ -1,0 +1,4 @@
+@font-face {
+  font-family: Merchant4x5-Regular.ttf;
+  src: url(Merchant4x5-Regular.ttf);
+}
