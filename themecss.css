@@ -13,8 +13,9 @@
   padding: 2%;
 }
 
-.a1 {
-    float: center;
-    width: 90%;
-    padding: 2%;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
