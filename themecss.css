@@ -18,12 +18,12 @@ body {
 }
 
 @font-face {
-  font-family: Merchant4x5-Regular.ttf;
+  font-family: Merchant4x5-Regular;
   src: url(Merchant4x5-Regular.ttf);
 }
 
 p {
   font-family: Merchant4x5-Regular;
   text-align: center;
-  font-size: 20em;
+  font-size: 2em;
 }
