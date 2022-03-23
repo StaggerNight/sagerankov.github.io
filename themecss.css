@@ -6,7 +6,7 @@
 }
 .row {
   display: flex;
-  width: 30%;
+  height: 30%;
 }
 .container {
   float: center;
