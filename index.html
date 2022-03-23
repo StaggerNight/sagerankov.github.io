@@ -1,33 +1,45 @@
 <!DOCTYPE html>
-  <link href="themecss.css" rel="stylesheet" type="text/css" media="all">
-  <link rel="icon" type="image/png" href="images/favicon.png">
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+
+.row {
+  clear: both;
+  display: table
+}
 </style>
 </head>
+<link href="themecss.css" rel="stylesheet" type="text/css" media="all">
+<link rel="icon" type="image/png" href="images/favicon.png">
 <body>
-                <div class="center">
-                 <img src="images/watch.png" alt="behave">
-                 </div>
-  
-                         <div class="center">
-                          <div class="row">
-                            <div class="column">
-                              <img src="images/NG.png" alt="based">
-                            </div>
-                              <div class="column">
-                                <img src="images/twatter.png" alt="gay">
-                              </div>
 
-                                <div class="column">
-                                  <img src="images/pateo.png" alt="Paetreon">
-                                 </div>
+<h2>Images Side by Side</h2>
+<p>How to create side-by-side images with the CSS float property:</p>
 
-                                 <div class="column">
-                                  <img src="images/yous.png" alt="Youtuve">
-                                 </div>
-                                 </div>
-    </div>
-                <div class="center">
-                    <img src="images/hands.png" alt="behave">
-                </div>
+<div class="row">
+  <div class="column">
+    <img src="Screenshot_143.png" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Screenshot_142.png" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Screenshot_141.png" alt="Mountains" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Screenshot_141.png" alt="Mountains" style="width:100%">
+  </div>
+</div>
 
 </body>
+</html>
