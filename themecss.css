@@ -28,3 +28,6 @@ p {
   font-size: 2em;
   color: white;
 }
+a {
+text-decoration: none;
+}
