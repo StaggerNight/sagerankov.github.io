@@ -3,7 +3,46 @@
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <style>
+  
+.container {
+  position: relative;
+  width: 50%;
+}
 
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 60px;
+  padding: 16px 32px;
+}
 .column {
   float: left;
   width: 25%;
@@ -26,15 +65,14 @@
 <body>
     <p> please enjoy my bounty </p>
     <img src="images/watch.png" alt="please" class="center">
-  
 <div class="row">
   <div class="column">
-    <img src="images/twatter.png" alt="sucks my ass" style="width:100%">
-    <img src="images/twatter.png" alt="sucks my ass" style="width:100%">
-    <img src="images/twatter.png" alt="sucks my ass" style="width:100%">
-    <img src="images/twatter.png" alt="sucks my ass" style="width:100%">
-    <img src="images/twatter.png" alt="sucks my ass" style="width:100%">
+    <div class="container">
+  <img src="images/NG.png" alt="Avatar" class="image" style="width:100%">
+  <div class="middle">
+    <div class="text">John Doe</div>
   </div>
+</div>
   <div class="column">
     <a href="https://staggernight.newgrounds.com/">
     <img src="images/NG.png" alt="epic" style="width:100%">
