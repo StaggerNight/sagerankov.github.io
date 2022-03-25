@@ -25,9 +25,10 @@ body {
 p {
   font-family: Merchant4x5-Regular;
   text-align: center;
-  font-size: 2em;
+  font-size: 2vm;
   color: white;
 }
+
 a {
 text-decoration: none;
 }
