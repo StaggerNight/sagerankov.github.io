@@ -18,12 +18,12 @@ body {
 }
 
 @font-face {
-  font-family: MerchantFont-2;
+  font-family: MerchantFont2;
   src: url(MerchantFont-2.ttf);
 }
 
 p {
-  font-family: MerchantFont-2;
+  font-family: MerchantFont2;
   text-align: center;
   font-size: 3vw;
   color: white;
