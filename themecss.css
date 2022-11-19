@@ -27,8 +27,7 @@ p {
   text-align: center;
   font-size: 4vw;
   color: white;
-  padding-top: -5%;
-  padding-bottom: -5%;
+  margin: auto;
 }
 
 a {
