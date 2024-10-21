@@ -12,23 +12,13 @@ background-color: Black;
   width: 50%;
 }
 
-body {
-   margin: 5%;
-   vertical-align: middle;
-}
 
 @font-face {
   font-family: MerchantFont2;
   src: url(MerchantFont2.ttf);
 }
 
-p {
-  font-family: MerchantFont2;
-  text-align: center;
-  font-size: 4vw;
-  color: white;
-  margin: auto;
-}
+
 
 a {
 text-decoration: none;
